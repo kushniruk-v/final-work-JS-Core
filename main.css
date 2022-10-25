@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.time {
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  width: 400px;
+  height: 100px;
+  margin: 10px auto;
+}
+#start {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 5%;
+  cursor: pointer;
+  border: none;
+}
+#check,
+#new {
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5%;
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+}
+.container {
+  display: flex;
+}
+.piece-puzzel {
+  width: 400px;
+  height: 400px;
+
+  margin-left: 200px;
+  box-shadow: 0 0 20px 0 black;
+  position: relative;
+  /* background-image: url(audi-rs7-sportback-2020-front.jpg); */
+}
+
+.result-puzzel {
+  width: 400px;
+  height: 400px;
+
+  margin-left: 200px;
+  box-shadow: 0 0 20px 0 black;
+  /* border: 1px solid black; */
+}
+
+.piece {
+  width: 100px;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-image: url(Temp-400x400.jpg);
+  position: relative;
+}
+.pieces {
+  width: 100px;
+  height: 100px;
+  float: left;
+  /* border: 1px solid black; */
+}
+
+#piece1 {
+  background-position: 0px 0;
+}
+#piece2 {
+  background-position: -100px -0px;
+}
+#piece3 {
+  background-position: -200px -0px;
+}
+#piece4 {
+  background-position: -300px -0px;
+}
+#piece5 {
+  background-position: -0px -100px;
+}
+
+#piece6 {
+  background-position: -100px -100px;
+}
+#piece7 {
+  background-position: -200px -100px;
+}
+#piece8 {
+  background-position: -300px -100px;
+}
+#piece9 {
+  background-position: -0px -200px;
+}
+#piece10 {
+  background-position: -100px -200px;
+}
+#piece11 {
+  background-position: -200px -200px;
+}
+#piece12 {
+  background-position: -300px -200px;
+}
+#piece13 {
+  background-position: -0px -300px;
+}
+#piece14 {
+  background-position: -100px -300px;
+}
+#piece15 {
+  background-position: -200px -300px;
+}
+#piece16 {
+  background-position: -300px -300px;
+}
+
+.result,
+.result-2 {
+  width: 400px;
+  height: 180px;
+
+  position: absolute;
+  top: 30px;
+  left: 450px;
+  display: none;
+  background-color: white;
+  border-radius: 2%;
+}
+
+table,
+tr {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-collapse: collapse;
+  margin: 10px 0 0 0px;
+}
+td {
+  width: 400px;
+  height: 50px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  margin: 10px 0 0 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+#close {
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0 0 100px;
+}
+#check-res {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(9, 92, 23);
+  color: white;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0 0 50px;
+}
+#close-2 {
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  margin: 50px 0 0 150px;
+  display: none;
+}
+#close-3 {
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  margin: 50px 0 0 150px;
+}
+
+span {
+  display: none;
+}
